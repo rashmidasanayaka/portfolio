@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    text-align: left;
+    color: rgb(31, 101, 61);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.first-name {
+    font-family: "lucida handwriting", "bradley hand";
+}
+
+div>ul {
+    list-style: none;
+    display: flex;
+}
+
+div>ul>li>a {
+    margin-inline: 5px;
+    text-decoration: none;
+    color:rgb(31, 101, 61) ;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to bottom, #d5f0c9, #ace7ac);
+}
+
+.main_topics {
+    color: rgb(51, 77, 55);
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+.divider {
+    width: 450px;
+    height: 2px;
+    background: #91c76d;
+    margin: 25px auto;
+}
+
+/* Home page */
+.homepage_section {
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#name {
+    color: rgb(51, 77, 55);
+}
+
+#intro {
+    color: #5b845b;
+    margin-block: 20px;
+}
+
+#points {
+    color: black;
+    margin-block: 20px;
+}
+
+.homepage_button {
+    border-color: #202e20;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #4e6d4e;
+    margin-top: 20px;
+    margin-inline-end: 8px;
+}
+
+.homepage_button>a {
+    text-decoration: none;
+     color: rgb(200, 253, 119);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.homepage_button:hover {
+    background-color: rgb(10, 10, 10);
+    transform: scale(1.08);
+}
+
+.my-pic {
+    width: 300px;
+    margin: 20px;
+}
+
+/* About me */
+.about_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 50px;
+    margin-block: 60px;
+}
+
+.about_section>div {
+    width: 600px;
+}
+
+#se {
+    color: rgb(91, 112, 70);
+    font-style: italic;
+}
+
+/* My skills */
+.skills_section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.skills_sub_topics {
+    color: rgb(91, 112, 70);
+}
+
+.box_skills {
+    padding: 20px;
+    margin: 30px;
+    margin-bottom: 55px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.box1 {
+    background-color: #ecf8dc;
+}
+
+.box2 {
+    background-color: #e1f5c8;
+}
+
+.box3 {
+    background-color: #d8f3b8;
+}
+
+/* My interest */
+.interest_section1 {
+    display: flex;
+    justify-content: center;
+}
+
+.interest_section2 {
+    display: flex;
+    justify-content: center;
+}
+
+.box_interest {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #7ed691;
+    color: white;
+    padding: 8px;
+    padding-inline: 40px;
+    margin: 15px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.interest_img {
+    width: 150px;
+    margin: 5px;
+}
+
+/* contact details */
+#contact_details {
+    margin: 30px;
+    text-align: center;
+}
+
+#contact_sub_topic {
+    margin: 20px;
+    color: #5b845b;
+}
+
+.contact_section {
+    text-align: center;
+    background-color: rgb(221, 239, 193);
+    padding: 20px;
+}
+
+.contact_section>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_img {
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.contact_cards {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: #729f72;
+    color: #f3f5f4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.contact_section>div {
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #425e42;
+    padding: 15px;
+    text-align: center;
+    color: #91db91;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
