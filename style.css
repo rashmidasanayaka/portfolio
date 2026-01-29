@@ -27,7 +27,7 @@ div>ul {
 div>ul>li>a {
     margin-inline: 5px;
     text-decoration: none;
-    color:rgb(31, 101, 61) ;
+    color: rgb(31, 101, 61);
 }
 
 body {
@@ -85,7 +85,7 @@ body {
 
 .homepage_button>a {
     text-decoration: none;
-     color: rgb(200, 253, 119);
+    color: rgb(200, 253, 119);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
