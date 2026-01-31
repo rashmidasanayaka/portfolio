@@ -195,7 +195,7 @@ body {
 .contact_section {
     text-align: center;
     background-color: rgb(221, 239, 193);
-    padding: 20px;
+    padding: 10px;
 }
 
 .contact_section>div {
@@ -211,7 +211,7 @@ body {
 }
 
 .contact_cards {
-    padding: 10px;
+    padding: 8px;
     margin: 10px;
     border-radius: 30px;
     background-color: #729f72;
