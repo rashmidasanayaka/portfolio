@@ -181,6 +181,20 @@ body {
     margin: 5px;
 }
 
+
+/* Gallery */
+.gallery_img {
+    width: 730px;
+    display: block;
+    margin: 0 auto;
+}
+
+.gallery_img:hover {
+  transform: scale(1.13);
+  transition: 0.3s ease;
+}
+
+
 /* contact details */
 #contact_details {
     margin: 30px;
